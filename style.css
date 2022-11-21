@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header,
+footer,
+section {
+   padding: 5%;
+   border: 1px solid lightgray;
+}
+
+.padded-1 { padding: 1rem; }
+
+.intro {
+   text-transform: uppercase;
+   background-color: lightgray;
+}
+
+
+.tag {
+   border: 1px solid;
+   color: grey;
+   border-radius: 3px;
+   display: inline-block;
+   margin-top: 1rem;
+   padding: 0.25rem;
+}
